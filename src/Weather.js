@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForcast from "./WeatherForcast ";
+import EnergyCalculation from "./EnergyCalculation" ;
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Weather.css";
@@ -59,6 +60,11 @@ export default function Weather(props) {
                     value="Search"
                     className="button-search"
                   />
+                    <input
+                    type="submit"
+                    value="Login or Register"
+                    className="button-search"
+                  />
                 </form>
               </div>
           <WeatherInfo data={weatherData} />
@@ -67,6 +73,9 @@ export default function Weather(props) {
               latitude={weatherData.latitude}
               longitude={weatherData.longitude}
             />
+          </div>
+          <div>
+            <EnergyCalculation />
           </div>
         </div>
       </div>
