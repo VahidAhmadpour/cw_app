@@ -1,16 +1,15 @@
 import React from 'react';
-import Recommend from './Recommend';
 import './EnergyCalculation.css';
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function EnergyCalculation () {
-const Calculation = "This is EnergyCalculation section.";
-
-<Recommend />
 
     return (
-          
-                <p className='calculation'>{Calculation}</p>
-            
+          <div>
+                <p className='calculation'> Coming Soon Feature</p>
+                <a href="https://ibb.co/pR9Ms5n"><img src="https://i.ibb.co/X3vKdMV/Screen-Shot-2024-09-18-at-3-07-22-AM.png" alt="Screen-Shot-2024-09-18-at-3-07-22-AM" border="0" /></a>
+
+          </div>
 
     );
 };

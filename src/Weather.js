@@ -60,11 +60,13 @@ export default function Weather(props) {
                     value="Search"
                     className="button-search"
                   />
+                   <a href="www.google.com">
                     <input
                     type="submit"
-                    value="Login or Register"
+                    value="Login / Register"
                     className="button-search"
                   />
+                  </a>
                 </form>
               </div>
           <WeatherInfo data={weatherData} />
